@@ -6,6 +6,7 @@ background-color: black;
 p,h1,nav,td,a{
   color: white;
 	font-family: 'Roboto Condensed', sans-serif;
+	text-align:justify;
 }
 img#profil{
 	position: absolute;
@@ -19,23 +20,26 @@ p#nom{
 img#accueil{
 	width: 100%;
 	margin-right: 0%;
+	
 }
 .photosdroites{
 	float: right;
 	margin-right: 10%;
+	padding-left : 1%;
 }
 img#arrow{
-	align-content: center;
 	margin-left: 45%;
 }
 .photosgauches{
 	float: left;
 	margin-left: 6%;
+	padding-right : 1%;
 }
+
 p#texteprezgauche{
 	font-size: 35px;
-	margin-left: 6%;
-	margin-right: 40%;
+	margin-right: 38%;
+	margin-left : 2%;
 }
 h1#titregauche{
 	font-size: 50px;
@@ -45,13 +49,12 @@ h1#titredroit{
 	font-size: 50px;
 	margin-left: 35%;
 }
-p#petitbouton{
-	margin-left: 6%;
+#petitbouton{
+	margin-top: 6%;
 }
 p#texteprezdroit{
 	font-size: 35px;
-	margin-left: 38%;
-	margin-right: 6%;
+	margin-left: 40%;
 }
 nav, a{
 	color:white;
@@ -61,21 +64,24 @@ nav, a{
 }
 nav{
     position: absolute;
-    margin-top : -5%;
-    left: 241px;
-    top: 136px;
-    width: 1335px;
+    margin-top : -7%;
+    width: 100%;
+    text-align : center;
     height: 103px;
+    top: 166px;
 	}
 .navigation{
 	padding-left: 2%;
 	padding-right: 2%;
+	border-top : -3%;
+	border-bottom:3%;
 }
-.navigation:hover,a:hover{
+.navigation:hover,a#petitbouton:hover, a.texteprezdroit:hover{
 	color:black;
 	background-color:white;
-	transition-duration:  0.5s;
+	transition-duration:  0.5s
 }
+
 #top img{
 	width : 400px;
 	height : 400px;
@@ -98,8 +104,13 @@ img.photoslarge{
 	width: 100%;
 	margin-right: 0%;
 }
-p#texteprezcentre{
+p#texteprezcentre, #petitboutton {
 	font-size: 35px;
 	width:80%;
 	margin-right:0%;
 	margin-left:10%;
+}
+
+a#petitbouton{
+	margin-left:2%;
+}
