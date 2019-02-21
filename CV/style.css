@@ -1,0 +1,109 @@
+@charset "utf-8";
+body{
+background-color: black;
+	width: 99%
+}
+p,h1,nav,td{
+  color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+img#profil{
+	position: absolute;
+	margin-left: 10px;
+}
+p#nom{
+	font-size: 35px;
+	margin-left: 136px;
+	margin-top: 20px;
+}
+img#accueil{
+	width: 100%;
+	margin-right: 0%;
+}
+.photosdroites{
+	float: right;
+	margin-right: 10%;
+}
+img#arrow{
+	align-content: center;
+	margin-left: 45%;
+}
+.photosgauches{
+	float: left;
+	margin-left: 6%;
+}
+p#texteprezgauche{
+	font-size: 35px;
+	margin-left: 6%;
+	margin-right: 40%;
+}
+h1#titregauche{
+	font-size: 50px;
+	margin-left: 3%;
+}
+h1#titredroit{
+	font-size: 50px;
+	margin-left: 35%;
+
+}
+p#petitbouton{
+	margin-left: 6%;
+}
+p#texteprezdroit{
+	font-size: 35px;
+	margin-left: 38%;
+	margin-right: 6%;
+}
+nav, a{
+	color:white;
+	font-size:32px;
+	text-align: center;
+	text-decoration: none;
+	
+}
+
+nav{
+    position: absolute;
+    margin-top : -5%;
+    left: 19px;
+    top: 136px;
+    width: 1557px;
+    height: 103px;
+	}
+.navigation{
+	padding-left: 2%;
+	padding-right: 2%;
+}	
+#top img{
+	width : 400px;
+	height : 400px;
+	display : inline-block;
+	
+	margin-left : 3%;
+	margin-top : 1%;
+	
+	
+}
+
+
+
+#top, #bottom {
+	
+	height : 33%;
+	white-space :normal;
+}
+td{
+	color: white;
+	padding-left:3%;
+	width: 407px;
+	text-align: justify;
+}
+img.photoslarge{
+	width: 100%;
+	margin-right: 0%;
+}
+p#texteprezcentre{
+	font-size: 35px;
+	width:80%;
+	margin-right:0%;
+	margin-left:10%;
